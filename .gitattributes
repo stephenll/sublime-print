@@ -1,6 +1,8 @@
 *                   text    eol=lf
+*.gif               binary
 
 .github/                    export-ignore
+docs/**.gif                 export-ignore
 scripts/                    export-ignore
 
 .gitattributes              export-ignore

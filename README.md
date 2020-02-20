@@ -48,6 +48,10 @@ print generates a preview for printing your Sublime Text code.
 * Markdown is opened in a [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html) preview
 * Code is previewed in your default browser for printing
 
+![Screencast Markdown](./docs/md_side-by-side.gif)
+
+![Screencast Code](./docs/code_in_browser.gif)
+
 Look for `Print: Preview ...` in:
 
 * the command palette
