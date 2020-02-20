@@ -2,7 +2,7 @@
 
 ## Requirements
 
-print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4050`** or later.
+print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065`** or later.
 
 * Download [Sublime Text](https://www.sublimetext.com)
   * (stable channel)

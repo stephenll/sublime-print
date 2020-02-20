@@ -78,7 +78,7 @@ class PrintPreviewMarkdownViaHtmlSheet(sublime_plugin.WindowCommand):
     def is_visible(self):
         try:
             VERSION = int(sublime.version())
-            if VERSION < 4050:
+            if VERSION < 4065:
                 return False
             import mdpopups
             return self.window.active_view().settings().get('syntax').startswith('Packages/Markdown/')

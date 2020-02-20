@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/jrappen/sublime-print.svg?style=flat-square)](https://github.com/jrappen/sublime-print/blob/master/LICENSE)
-[![Required ST Build](https://img.shields.io/badge/ST-Build%204050+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
+[![Required ST Build](https://img.shields.io/badge/ST-Build%204065+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/print.svg?style=flat-square)](https://packagecontrol.io/packages/print)
 [![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-print.svg?style=flat-square&logo=github)](https://github.com/jrappen/sublime-print/tags)
 [![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square&logo=paypal)](https://www.paypal.me/jrappen)
@@ -23,7 +23,7 @@
 
 ## Requirements
 
-print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4050`** or later.
+print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065`** or later.
 
 * Download [Sublime Text](https://www.sublimetext.com)
   * (stable channel)
