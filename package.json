@@ -1,0 +1,30 @@
+{
+    "name": "sublime-print",
+    "version": "1.0.0-beta.1",
+    "description": "Print your Sublime Text code via your Browser",
+    "author": {
+        "name": "Johannes Rappen",
+        "url": "https://github.com/jrappen"
+    },
+    "license": "ISC",
+    "homepage": "https://github.com/jrappen/sublime-print#readme",
+    "bugs": {
+        "url": "https://github.com/jrappen/sublime-print/issues/new"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jrappen/sublime-print.git"
+    },
+    "scripts": {
+        "release": "node scripts/release.js"
+    },
+    "engines": {
+        "node": ">= 13.7.0",
+        "npm": ">= 6.13.7"
+    },
+    "devDependencies": {
+        "execa": "^4.0.0",
+        "inquirer": "^7.0.3",
+        "semver": "^7.1.0"
+    }
+}

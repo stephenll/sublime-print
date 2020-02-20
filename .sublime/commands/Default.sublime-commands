@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Print: Preview as mini-HTML (read-only)",
+        "command": "print_preview_markdown_via_html_sheet"
+    },
+    {
+        "caption": "Print: Preview in Browser",
+        "command": "print_preview_code_in_browser"
+    }
+]
