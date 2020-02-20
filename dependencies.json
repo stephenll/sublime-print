@@ -3,6 +3,7 @@
         ">=3124": [
             "markupsafe",
             "mdpopups",
+            "pathlib",
             "pygments",
             "pymdownx",
             "python-jinja2",
