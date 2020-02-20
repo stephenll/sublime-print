@@ -1,6 +1,6 @@
 {
     "name": "sublime-print",
-    "version": "1.0.0-beta.1",
+    "version": "1.0.0",
     "description": "Print your Sublime Text code via your Browser",
     "author": {
         "name": "Johannes Rappen",
