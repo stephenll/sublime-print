@@ -63,7 +63,7 @@ class PrintPreviewMarkdownViaHtmlSheet(sublime_plugin.WindowCommand):
                 allow_code_wrap=False
             )
             preview_sheet = w.new_html_sheet(
-                name='Print Preview (read-only)',
+                name='[print] mini-HTML Preview (read-only)',
                 contents=md_preview,
                 cmd='open_url',
                 args=None,

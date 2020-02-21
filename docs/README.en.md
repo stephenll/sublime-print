@@ -1,5 +1,7 @@
 # print plug-in for [Sublime Text](https://www.sublimetext.com)
 
+> Print a preview of your Sublime Text code in your browser.
+
 ## Requirements
 
 print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065`** or later.

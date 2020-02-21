@@ -1,5 +1,7 @@
 # print Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
+> Drucke eine Vorschau deines Sublime Text Codes in deinem Browser.
+
 ## Voraussetzungen
 
 print ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4065`** oder neuer.
