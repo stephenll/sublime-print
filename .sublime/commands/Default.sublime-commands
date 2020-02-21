@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Print: Preview as mini-HTML (read-only)",
+        "caption": "Print: Preview in Sublime Text (read-only)",
         "command": "print_preview_markdown_via_html_sheet"
     },
     {
