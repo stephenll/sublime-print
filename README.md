@@ -45,17 +45,23 @@ Using **Package Control** is not required, but recommended as it keeps your pack
 
 print generates a preview for printing your Sublime Text code.
 
-* Markdown is opened in a [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html) preview
+* Markdown can be opened in a
+  [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html)
+  preview within Sublime Text
 * Code is previewed in your default browser for printing
-
-![Screencast Markdown](./docs/md_side-by-side.gif)
-
-![Screencast Code](./docs/code_in_browser.gif)
 
 Look for `Print: Preview ...` in:
 
 * the command palette
 * or the context menu (right-click)
+
+### Usage: Preview Markdown in Sublime Text
+
+![Screencast Markdown](./docs/md_side-by-side.gif)
+
+### Usage: Preview code in browser for printing
+
+![Screencast Code](./docs/code_in_browser.gif)
 
 ### Known issues with Markdown Preview
 

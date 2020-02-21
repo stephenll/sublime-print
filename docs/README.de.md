@@ -24,7 +24,9 @@ Die Verwendung von **Package Control** wird nicht zwingend vorausgesetzt, aber d
 
 print generiert eine Vorschau für das Drucken von Sublime Text Code.
 
-* Markdown wird in einer Vorschau als [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html) geöffnet
+* Markdown kann in einer Vorschau als
+  [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html)
+  geöffnet
 * Code wird als Vorschau in deinen Standardbrowser kopiert
 
 Du findest die Einträge `Print: Preview ...` in:

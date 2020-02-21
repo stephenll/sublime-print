@@ -36,7 +36,7 @@ class PrintPreviewCodeInBrowser(sublime_plugin.WindowCommand):
     def is_visible(self):
         try:
             import mdpopups
-            return not self.window.active_view().settings().get('syntax').startswith('Packages/Markdown/')
+            return True
         except Exception as e:
             return False
 
