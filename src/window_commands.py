@@ -6,7 +6,7 @@ import sublime
 import sublime_plugin
 
 import os
-import pathlib
+import pathlib # TODO: remove from dependencies.json for py3.8
 import webbrowser
 
 
@@ -29,6 +29,7 @@ class PrintPreviewCodeInBrowser(sublime_plugin.WindowCommand):
                 f.write(md_preview)
             webbrowser.open(pathlib.Path(p).as_uri())
         except Exception as e:
+            # TODO: update for py3.8
             print('Print: Exception: {}'.format(e))
 
     # def is_enabled(self): return bool
@@ -71,6 +72,7 @@ class PrintPreviewMarkdownViaHtmlSheet(sublime_plugin.WindowCommand):
             )
             w.run_command('new_pane')
         except Exception as e:
+            # TODO: update for py3.8
             print('Print: Exception: {}'.format(e))
 
     # def is_enabled(self): return bool
