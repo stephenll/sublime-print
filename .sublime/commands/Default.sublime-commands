@@ -1,5 +1,45 @@
 [
     {
+        "caption": "print: Documentation: English",
+        "command": "print_open_docs",
+        "args":
+        {
+            "resource_path": "docs/README.en.md"
+        }
+    },
+    {
+        "caption": "print: Documentation: German (Deutsch)",
+        "command": "print_open_docs",
+        "args":
+        {
+            "resource_path": "docs/README.de.md"
+        }
+    },
+    {
+        "caption": "print: Changelog",
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://github.com/jrappen/sublime-print/blob/master/CHANGELOG.md"
+        }
+    },
+    {
+        "caption": "print: Issues",
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://github.com/jrappen/sublime-print/issues"
+        }
+    },
+    {
+        "caption": "print: Donations",
+        "command": "open_url",
+        "args":
+        {
+            "url": "https://www.paypal.me/jrappen"
+        }
+    },
+    {
         "caption": "Print: Preview in Sublime as mini-HTML (read-only)",
         "command": "print_preview_markdown_via_html_sheet"
     },

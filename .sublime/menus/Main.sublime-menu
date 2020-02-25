@@ -1,0 +1,68 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "print",
+                        "children":
+                        [
+                            {
+                                "caption": "Changelog",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/jrappen/sublime-print/blob/master/CHANGELOG.md"
+                                }
+                            },
+                            {
+                                "caption": "Documentation",
+                                "children":
+                                [
+                                    {
+                                        "caption": "English",
+                                        "command": "print_open_docs",
+                                        "args":
+                                        {
+                                            "resource_path": "docs/README.en.md"
+                                        }
+                                    },
+                                    {
+                                        "caption": "German (Deutsch)",
+                                        "command": "print_open_docs",
+                                        "args":
+                                        {
+                                            "resource_path": "docs/README.de.md"
+                                        }
+                                    }
+                                ]
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Issues",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/jrappen/sublime-print/issues"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Donations",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://www.paypal.me/jrappen"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

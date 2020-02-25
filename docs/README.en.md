@@ -1,4 +1,4 @@
-# print plug-in for [Sublime Text](https://www.sublimetext.com)
+# `print` plug-in for [Sublime Text](https://www.sublimetext.com)
 
 > Print a preview of your Sublime Text code in your browser.
 

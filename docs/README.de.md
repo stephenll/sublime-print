@@ -1,4 +1,4 @@
-# print Erweiterung für [Sublime Text](https://www.sublimetext.com)
+# `print` Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
 > Drucke eine Vorschau deines Sublime Text Codes in deinem Browser.
 

@@ -51,5 +51,5 @@ System:
 
 Package Control:
     Package Control: 3.3.0
-    print: 1.0.0
+    print: 1.1.1
 ```

@@ -5,7 +5,7 @@
 [![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square&logo=paypal)](https://www.paypal.me/jrappen)
 [![SublimeHQ Discord](https://img.shields.io/discord/280102180189634562?label=SublimeHQ%20Discord&logo=discord&style=flat-square)](https://discord.gg/D43Pecu)
 
-# print plug-in for [Sublime Text](https://www.sublimetext.com)
+# `print` plug-in for [Sublime Text](https://www.sublimetext.com)
 
 > Print a preview of your Sublime Text code in your browser.
 
@@ -67,9 +67,10 @@ Look for `Print: Preview ...` in:
 
 ### Known issues with Markdown Preview
 
-* the Markdown Preview is limited to mini-HTML
+* the Markdown Preview is limited to
+  [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html)
   * HTML comments break the preview (at that point)
-* mdpopups uses PythonMarkdown which uses 4 spaces indentation
+* mdpopups uses PythonMarkdown which uses 4 spaces for indentation
 
 ## Source Code
 
