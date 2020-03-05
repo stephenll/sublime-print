@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/jrappen/sublime-print/compare/1.1.1...1.1.2) (2020-03-05)
+
+
+### Bug Fixes
+
+* **node:** Bump engines and devDependencies ([766b716](https://github.com/jrappen/sublime-print/commit/766b7168a181afea604962866fe2d99260bf1ef4))
+
+
+
 ## [1.1.1](https://github.com/jrappen/sublime-print/compare/1.1.0...1.1.1) (2020-02-21)
 
 ### Bug Fixes
