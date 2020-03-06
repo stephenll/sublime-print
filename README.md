@@ -28,8 +28,8 @@
 print targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065`** or later.
 
 * Download [Sublime Text](https://www.sublimetext.com)
-  * (stable channel)
-  * (dev channel)
+    * (stable channel)
+    * (dev channel)
 
 ## Installation
 
@@ -38,7 +38,7 @@ Using **Package Control** is not required, but recommended as it keeps your pack
 ### Installation via Package Control
 
 * [Install Package Control](https://packagecontrol.io/installation)
-  * Close and reopen Sublime Text after having installed Package Control.
+    * Close and reopen Sublime Text after having installed Package Control.
 * Open the Command Palette (`Tools > Command Palette`).
 * Choose `Package Control: Install Package`.
 * Search for [`print` on Package Control](https://packagecontrol.io/packages/print) and select to install.
@@ -69,7 +69,7 @@ Look for `Print: Preview ...` in:
 
 * the Markdown Preview is limited to
   [mini-HTML](https://www.sublimetext.com/docs/3/minihtml.html)
-  * HTML comments break the preview (at that point)
+    * HTML comments break the preview (at that point)
 * mdpopups uses PythonMarkdown which uses 4 spaces for indentation
 
 ## Source Code
