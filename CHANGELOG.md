@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/jrappen/sublime-print/compare/1.1.2...1.2.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* **docs:** Use 4 spaces indentation for list items ([42c3bc6](https://github.com/jrappen/sublime-print/commit/42c3bc6e13edfd648c3f01d31001355d03ec846b))
+
+
+### Features
+
+* **Package Control:** Add PkgCtrl channel file ([b6dd88e](https://github.com/jrappen/sublime-print/commit/b6dd88e9914565acef38e2033ab2ac5f8254671c))
+
+
+
 ## [1.1.2](https://github.com/jrappen/sublime-print/compare/1.1.0...1.1.2) (2020-03-05)
 
 ### Bug Fixes
