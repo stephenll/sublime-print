@@ -1,6 +1,6 @@
 {
     "*": {
-        ">=3124": [
+        "*": [
             "markupsafe",
             "mdpopups",
             "pathlib",
