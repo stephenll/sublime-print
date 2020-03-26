@@ -40,11 +40,15 @@
         }
     },
     {
-        "caption": "Print: Preview in Sublime as mini-HTML (read-only)",
+        "caption": "Print: Preview Markdown in Browser",
+        "command": "print_preview_markdown_in_browser"
+    },
+    {
+        "caption": "Print: Preview Markdown in Sublime as mini-HTML (read-only)",
         "command": "print_preview_markdown_via_html_sheet"
     },
     {
-        "caption": "Print: Preview in Browser",
+        "caption": "Print: Preview Code in Browser",
         "command": "print_preview_code_in_browser"
     }
 ]
