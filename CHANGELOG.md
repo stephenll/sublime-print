@@ -1,3 +1,20 @@
+# [1.3.0](https://github.com/jrappen/sublime-print/compare/1.2.0...1.3.0) (2020-03-26)
+
+
+### Bug Fixes
+
+* **GitHub:** Update issue templates ([3b3472d](https://github.com/jrappen/sublime-print/commit/3b3472da26a00129a672ad941262c377f2ad3352))
+* **PkgCtrl:** Fix dependencies ([78200ed](https://github.com/jrappen/sublime-print/commit/78200edac366608faebf2058ab2eeb4fa697e708))
+* **PkgCtrl:** Fix metadata labels ([25532e2](https://github.com/jrappen/sublime-print/commit/25532e286565841e6749f5b5e9f7f197dd1b0997))
+* **PkgCtrl:** Update installation instructions ([5d0b8bb](https://github.com/jrappen/sublime-print/commit/5d0b8bbdc09451c28761e7c3441fcac40502b148))
+
+
+### Features
+
+* **Python:** Add print md2html preview to Browser ([6e703b6](https://github.com/jrappen/sublime-print/commit/6e703b6af5984b9b7560a449d11ecbee60bdbd7b))
+
+
+
 # [1.2.0](https://github.com/jrappen/sublime-print/compare/1.0.0...1.2.0) (2020-03-09)
 
 ### Features
