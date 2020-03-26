@@ -11,6 +11,7 @@
 			[
 				"print-preview",
 				"html-preview",
+				"mini-html-preview",
 				"side-by-side"
 			],
 			"releases":
