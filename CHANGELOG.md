@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/jrappen/sublime-print/compare/1.3.0...1.3.1) (2020-04-27)
+
+
+### Bug Fixes
+
+* **Python:** Add missing arg in SublimeAPI call ([d9c7a48](https://github.com/jrappen/sublime-print/commit/d9c7a48008fc2292f891a4376c6cd71825899158))
+
+
+
 # [1.3.0](https://github.com/jrappen/sublime-print/compare/1.0.0...1.3.0) (2020-03-26)
 
 ### Features
