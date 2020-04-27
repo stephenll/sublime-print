@@ -18,20 +18,13 @@ class PrintOpenDocs(sublime_plugin.WindowCommand):
             w = self.window
             v = w.active_view()
             import mdpopups
-            md_preview = mdpopups.md2html(
-                view=v,
-                # TODO: update for py3.8
-                markup=sublime.load_resource('Packages/{}/{}'.format(PKG_NAME, resource_path)),
-                template_vars=None,
-                template_env_options=None
-            )
-            preview_sheet = w.new_html_sheet(
+            preview_sheet = mdpopups.new_html_sheet(
+                window=w,
                 name='{}/{}'.format(PKG_NAME, resource_path),
-                contents=md_preview,
-                cmd='open_url',
-                args=None,
-                flags=0,
-                group=-1
+                # TODO: update for py3.8
+                contents=sublime.load_resource('Packages/{}/{}'.format(PKG_NAME, resource_path)),
+                md=True,
+                cmd='open_url'
             )
         except Exception as e:
             # TODO: update for py3.8
@@ -138,19 +131,12 @@ class PrintPreviewMarkdownViaHtmlSheet(sublime_plugin.WindowCommand):
             if not v.settings().get('syntax').startswith('Packages/Markdown/'):
                 return
             import mdpopups
-            md_preview = mdpopups.md2html(
-                view=v,
-                markup=v.substr(sublime.Region(0, v.size())),
-                template_vars=None,
-                template_env_options=None
-            )
-            preview_sheet = w.new_html_sheet(
+            preview_sheet = mdpopups.new_html_sheet(
+                window=w,
                 name='[print] mini-HTML Preview (read-only)',
-                contents=md_preview,
-                cmd='open_url',
-                args=None,
-                flags=0,
-                group=-1
+                contents=v.substr(sublime.Region(0, v.size())),
+                md=True,
+                cmd='open_url'
             )
             # w.run_command('new_pane')
         except Exception as e:
