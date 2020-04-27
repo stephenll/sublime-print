@@ -1,4 +1,4 @@
-## [1.3.1](https://github.com/jrappen/sublime-print/compare/1.0.0...1.3.1) (2020-04-27)
+## [1.3.1](https://github.com/jrappen/sublime-print/compare/1.3.0...1.3.1) (2020-04-27)
 
 ### Bug Fixes
 
