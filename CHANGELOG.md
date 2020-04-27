@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/jrappen/sublime-print/compare/1.3.1...1.4.0) (2020-04-27)
+
+
+### Features
+
+* **mdpopups:** Use new mdpopups API ([9076a68](https://github.com/jrappen/sublime-print/commit/9076a68d7ef8f1115d6f86cda730e1ab4640b216))
+
+
+
 ## [1.3.1](https://github.com/jrappen/sublime-print/compare/1.3.0...1.3.1) (2020-04-27)
 
 ### Bug Fixes
