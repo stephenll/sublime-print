@@ -69,7 +69,7 @@ class PrintPreviewCodeInBrowser(sublime_plugin.WindowCommand):
                 f.write(md_preview)
             # TODO: remove pathlib from dependencies.json for py3.8
             import pathlib
-            w.run_command('open_url', pathlib.Path(p).as_uri())
+            w.run_command('open_url', { 'url': pathlib.Path(p).as_uri() })
         except Exception as e:
             # TODO: update for py3.8
             print('Print: Exception: {}'.format(e))
@@ -108,7 +108,7 @@ class PrintPreviewMarkdownInBrowser(sublime_plugin.WindowCommand):
                 f.write(md_preview)
             # TODO: remove pathlib from dependencies.json for py3.8
             import pathlib
-            w.run_command('open_url', pathlib.Path(p).as_uri())
+            w.run_command('open_url', { 'url': pathlib.Path(p).as_uri() })
         except Exception as e:
             # TODO: update for py3.8
             print('Print: Exception: {}'.format(e))
