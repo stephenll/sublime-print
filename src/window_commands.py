@@ -23,8 +23,7 @@ class PrintOpenDocs(sublime_plugin.WindowCommand):
                 name='{}/{}'.format(PKG_NAME, resource_path),
                 # TODO: update for py3.8
                 contents=sublime.load_resource('Packages/{}/{}'.format(PKG_NAME, resource_path)),
-                md=True,
-                cmd='open_url'
+                md=True
             )
         except Exception as e:
             # TODO: update for py3.8
@@ -135,8 +134,7 @@ class PrintPreviewMarkdownViaHtmlSheet(sublime_plugin.WindowCommand):
                 window=w,
                 name='[print] mini-HTML Preview (read-only)',
                 contents=v.substr(sublime.Region(0, v.size())),
-                md=True,
-                cmd='open_url'
+                md=True
             )
             # w.run_command('new_pane')
         except Exception as e:
