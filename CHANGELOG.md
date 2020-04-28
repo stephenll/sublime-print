@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/jrappen/sublime-print/compare/1.4.0...1.4.1) (2020-04-28)
+
+
+### Bug Fixes
+
+* **mdpopups:** Remove passing `cmd` to `mdpopups` ([a731756](https://github.com/jrappen/sublime-print/commit/a731756d7abdcda3298a42200fabfbd722070e2c))
+
+
+
 # [1.4.0](https://github.com/jrappen/sublime-print/compare/1.3.0...1.4.0) (2020-04-27)
 
 ### Features
